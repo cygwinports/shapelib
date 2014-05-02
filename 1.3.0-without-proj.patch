@@ -1,0 +1,11 @@
+--- origsrc/shapelib-1.3.0/contrib/Makefile.am	2014-05-02 02:02:50.768381000 -0500
++++ src/shapelib-1.3.0/contrib/Makefile.am	2014-05-02 02:05:40.893984200 -0500
+@@ -5,7 +5,7 @@ PROJ_CFLAGS += -DPROJ4
+ EXTRA_DIST = tests doc ShapeFileII.pas
+ 
+ # Installed executables
+-bin_PROGRAMS = dbfcat dbfinfo shpcat shpdxf shpfix shpsort Shape_PointInPoly shpcentrd shpdata shpinfo shpproj shpwkb
++bin_PROGRAMS = dbfcat dbfinfo shpcat shpdxf shpfix shpsort Shape_PointInPoly # shpcentrd shpdata shpinfo shpproj shpwkb
+ 
+ dbfcat_SOURCES = dbfcat.c
+ dbfcat_CPPFLAGS = $(CONTRIB_CFLAGS)
